@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62C3D9A1F7BE1E464E70835B /* libPods-ZNLoopScrollView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D762F212B3F4F89230EAA2B7 /* libPods-ZNLoopScrollView.a */; };
+		B840A1BF1C85D50B00D583BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B840A1BE1C85D50B00D583BC /* main.m */; };
+		B840A1C21C85D50B00D583BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B840A1C11C85D50B00D583BC /* AppDelegate.m */; };
+		B840A1C51C85D50B00D583BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B840A1C41C85D50B00D583BC /* ViewController.m */; };
+		B840A1C81C85D50B00D583BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B840A1C61C85D50B00D583BC /* Main.storyboard */; };
+		B840A1CB1C85D50B00D583BC /* ZNLoopScrollView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B840A1C91C85D50B00D583BC /* ZNLoopScrollView.xcdatamodeld */; };
+		B840A1CD1C85D50B00D583BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B840A1CC1C85D50B00D583BC /* Assets.xcassets */; };
+		B840A1D01C85D50B00D583BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B840A1CE1C85D50B00D583BC /* LaunchScreen.storyboard */; };
+		B840A1E01C85DCEA00D583BC /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B840A1D91C85DCEA00D583BC /* UIView+Extension.m */; };
+		B840A1E11C85DCEA00D583BC /* ZNLoadImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B840A1DB1C85DCEA00D583BC /* ZNLoadImageView.m */; };
+		B840A1E21C85DCEA00D583BC /* ZNLoopScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B840A1DD1C85DCEA00D583BC /* ZNLoopScrollView.m */; };
+		B840A1E31C85DCEA00D583BC /* ZNPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B840A1DF1C85DCEA00D583BC /* ZNPageControl.m */; };
+		B840A1E81C85E18500D583BC /* h1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B840A1E41C85E18500D583BC /* h1.jpg */; };
+		B840A1E91C85E18500D583BC /* h2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B840A1E51C85E18500D583BC /* h2.jpg */; };
+		B840A1EA1C85E18500D583BC /* h3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B840A1E61C85E18500D583BC /* h3.jpg */; };
+		B840A1EB1C85E18500D583BC /* h4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B840A1E71C85E18500D583BC /* h4.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		068F38F91F142F1FE13D20B0 /* Pods-ZNLoopScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZNLoopScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZNLoopScrollView/Pods-ZNLoopScrollView.release.xcconfig"; sourceTree = "<group>"; };
+		B840A1BA1C85D50B00D583BC /* ZNLoopScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZNLoopScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B840A1BE1C85D50B00D583BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B840A1C01C85D50B00D583BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B840A1C11C85D50B00D583BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B840A1C31C85D50B00D583BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B840A1C41C85D50B00D583BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B840A1C71C85D50B00D583BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B840A1CA1C85D50B00D583BC /* ZNLoopScrollView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZNLoopScrollView.xcdatamodel; sourceTree = "<group>"; };
+		B840A1CC1C85D50B00D583BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B840A1CF1C85D50B00D583BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B840A1D11C85D50B00D583BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B840A1D81C85DCEA00D583BC /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		B840A1D91C85DCEA00D583BC /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		B840A1DA1C85DCEA00D583BC /* ZNLoadImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZNLoadImageView.h; sourceTree = "<group>"; };
+		B840A1DB1C85DCEA00D583BC /* ZNLoadImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZNLoadImageView.m; sourceTree = "<group>"; };
+		B840A1DC1C85DCEA00D583BC /* ZNLoopScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZNLoopScrollView.h; sourceTree = "<group>"; };
+		B840A1DD1C85DCEA00D583BC /* ZNLoopScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZNLoopScrollView.m; sourceTree = "<group>"; };
+		B840A1DE1C85DCEA00D583BC /* ZNPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZNPageControl.h; sourceTree = "<group>"; };
+		B840A1DF1C85DCEA00D583BC /* ZNPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZNPageControl.m; sourceTree = "<group>"; };
+		B840A1E41C85E18500D583BC /* h1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h1.jpg; sourceTree = "<group>"; };
+		B840A1E51C85E18500D583BC /* h2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h2.jpg; sourceTree = "<group>"; };
+		B840A1E61C85E18500D583BC /* h3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h3.jpg; sourceTree = "<group>"; };
+		B840A1E71C85E18500D583BC /* h4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h4.jpg; sourceTree = "<group>"; };
+		D762F212B3F4F89230EAA2B7 /* libPods-ZNLoopScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZNLoopScrollView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC44501B5FF346C3AA4C49B1 /* Pods-ZNLoopScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZNLoopScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZNLoopScrollView/Pods-ZNLoopScrollView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B840A1B71C85D50B00D583BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62C3D9A1F7BE1E464E70835B /* libPods-ZNLoopScrollView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		306F80B8E6046A96FF65A286 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC44501B5FF346C3AA4C49B1 /* Pods-ZNLoopScrollView.debug.xcconfig */,
+				068F38F91F142F1FE13D20B0 /* Pods-ZNLoopScrollView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5EFEA590A0D0A69FE92F7FD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D762F212B3F4F89230EAA2B7 /* libPods-ZNLoopScrollView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B840A1B11C85D50B00D583BC = {
+			isa = PBXGroup;
+			children = (
+				B840A1BC1C85D50B00D583BC /* ZNLoopScrollView */,
+				B840A1BB1C85D50B00D583BC /* Products */,
+				306F80B8E6046A96FF65A286 /* Pods */,
+				5EFEA590A0D0A69FE92F7FD9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B840A1BB1C85D50B00D583BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B840A1BA1C85D50B00D583BC /* ZNLoopScrollView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B840A1BC1C85D50B00D583BC /* ZNLoopScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				B840A1D71C85DCEA00D583BC /* ZNLoopScrollView */,
+				B840A1C01C85D50B00D583BC /* AppDelegate.h */,
+				B840A1C11C85D50B00D583BC /* AppDelegate.m */,
+				B840A1C31C85D50B00D583BC /* ViewController.h */,
+				B840A1C41C85D50B00D583BC /* ViewController.m */,
+				B840A1C61C85D50B00D583BC /* Main.storyboard */,
+				B840A1CC1C85D50B00D583BC /* Assets.xcassets */,
+				B840A1CE1C85D50B00D583BC /* LaunchScreen.storyboard */,
+				B840A1D11C85D50B00D583BC /* Info.plist */,
+				B840A1C91C85D50B00D583BC /* ZNLoopScrollView.xcdatamodeld */,
+				B840A1BD1C85D50B00D583BC /* Supporting Files */,
+			);
+			path = ZNLoopScrollView;
+			sourceTree = "<group>";
+		};
+		B840A1BD1C85D50B00D583BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B840A1E41C85E18500D583BC /* h1.jpg */,
+				B840A1E51C85E18500D583BC /* h2.jpg */,
+				B840A1E61C85E18500D583BC /* h3.jpg */,
+				B840A1E71C85E18500D583BC /* h4.jpg */,
+				B840A1BE1C85D50B00D583BC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B840A1D71C85DCEA00D583BC /* ZNLoopScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				B840A1D81C85DCEA00D583BC /* UIView+Extension.h */,
+				B840A1D91C85DCEA00D583BC /* UIView+Extension.m */,
+				B840A1DA1C85DCEA00D583BC /* ZNLoadImageView.h */,
+				B840A1DB1C85DCEA00D583BC /* ZNLoadImageView.m */,
+				B840A1DC1C85DCEA00D583BC /* ZNLoopScrollView.h */,
+				B840A1DD1C85DCEA00D583BC /* ZNLoopScrollView.m */,
+				B840A1DE1C85DCEA00D583BC /* ZNPageControl.h */,
+				B840A1DF1C85DCEA00D583BC /* ZNPageControl.m */,
+			);
+			path = ZNLoopScrollView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B840A1B91C85D50B00D583BC /* ZNLoopScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B840A1D41C85D50B00D583BC /* Build configuration list for PBXNativeTarget "ZNLoopScrollView" */;
+			buildPhases = (
+				499774BF8E58B5D2BFD52C05 /* Check Pods Manifest.lock */,
+				B840A1B61C85D50B00D583BC /* Sources */,
+				B840A1B71C85D50B00D583BC /* Frameworks */,
+				B840A1B81C85D50B00D583BC /* Resources */,
+				B8AD8C74FCA5D9BDABA8601E /* Embed Pods Frameworks */,
+				7474C082843B62EEEE2260B6 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZNLoopScrollView;
+			productName = ZNLoopScrollView;
+			productReference = B840A1BA1C85D50B00D583BC /* ZNLoopScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B840A1B21C85D50B00D583BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = zn;
+				TargetAttributes = {
+					B840A1B91C85D50B00D583BC = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = P3X9QBJTC2;
+					};
+				};
+			};
+			buildConfigurationList = B840A1B51C85D50B00D583BC /* Build configuration list for PBXProject "ZNLoopScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B840A1B11C85D50B00D583BC;
+			productRefGroup = B840A1BB1C85D50B00D583BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B840A1B91C85D50B00D583BC /* ZNLoopScrollView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B840A1B81C85D50B00D583BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B840A1E91C85E18500D583BC /* h2.jpg in Resources */,
+				B840A1D01C85D50B00D583BC /* LaunchScreen.storyboard in Resources */,
+				B840A1EA1C85E18500D583BC /* h3.jpg in Resources */,
+				B840A1CD1C85D50B00D583BC /* Assets.xcassets in Resources */,
+				B840A1EB1C85E18500D583BC /* h4.jpg in Resources */,
+				B840A1E81C85E18500D583BC /* h1.jpg in Resources */,
+				B840A1C81C85D50B00D583BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		499774BF8E58B5D2BFD52C05 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7474C082843B62EEEE2260B6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZNLoopScrollView/Pods-ZNLoopScrollView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8AD8C74FCA5D9BDABA8601E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZNLoopScrollView/Pods-ZNLoopScrollView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B840A1B61C85D50B00D583BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B840A1E01C85DCEA00D583BC /* UIView+Extension.m in Sources */,
+				B840A1E11C85DCEA00D583BC /* ZNLoadImageView.m in Sources */,
+				B840A1C51C85D50B00D583BC /* ViewController.m in Sources */,
+				B840A1E31C85DCEA00D583BC /* ZNPageControl.m in Sources */,
+				B840A1CB1C85D50B00D583BC /* ZNLoopScrollView.xcdatamodeld in Sources */,
+				B840A1C21C85D50B00D583BC /* AppDelegate.m in Sources */,
+				B840A1BF1C85D50B00D583BC /* main.m in Sources */,
+				B840A1E21C85DCEA00D583BC /* ZNLoopScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B840A1C61C85D50B00D583BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B840A1C71C85D50B00D583BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B840A1CE1C85D50B00D583BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B840A1CF1C85D50B00D583BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B840A1D21C85D50B00D583BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B840A1D31C85D50B00D583BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B840A1D51C85D50B00D583BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC44501B5FF346C3AA4C49B1 /* Pods-ZNLoopScrollView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZNLoopScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.Tacit.com.ZNLoopScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B840A1D61C85D50B00D583BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 068F38F91F142F1FE13D20B0 /* Pods-ZNLoopScrollView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZNLoopScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.Tacit.com.ZNLoopScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B840A1B51C85D50B00D583BC /* Build configuration list for PBXProject "ZNLoopScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B840A1D21C85D50B00D583BC /* Debug */,
+				B840A1D31C85D50B00D583BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B840A1D41C85D50B00D583BC /* Build configuration list for PBXNativeTarget "ZNLoopScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B840A1D51C85D50B00D583BC /* Debug */,
+				B840A1D61C85D50B00D583BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B840A1C91C85D50B00D583BC /* ZNLoopScrollView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B840A1CA1C85D50B00D583BC /* ZNLoopScrollView.xcdatamodel */,
+			);
+			currentVersion = B840A1CA1C85D50B00D583BC /* ZNLoopScrollView.xcdatamodel */;
+			path = ZNLoopScrollView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B840A1B21C85D50B00D583BC /* Project object */;
+}
