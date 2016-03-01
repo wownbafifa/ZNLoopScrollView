@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
 
 s.name         = "ZNLoopScrollView"
-s.version      = "1.0.1"
+s.version      = "1.0.2"
 s.summary      = "简单易用的 app 必备的图片轮播器组件,一行代码解决"
 
 s.description  = <<-DESC
